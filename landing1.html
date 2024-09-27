@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="landing scripts/style1.css">
+    <link rel="icon" type="image/x-icon" href="images/logo%20(2).png" />
+    <title>Echo Mind Sphere</title>
+</head>
+
+<body>
+    <div class="navbar">
+      <img src="./assets/logo.png" class="navbar-logo" alt="logo" />
+      <ul class="navbar-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Playlists</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Victoria
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-envelope"></i>
+              Inbox
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-chart-line"></i>
+              Analytics
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <h2>Eco <a>Mind</a> Sphere</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="chat.html">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="games.html">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>Games</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Eco News</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="index.html">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Analytics</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <a href="games.html">
+                    <div class="status">
+                        <div class="info">
+                            <a  href="games.html">
+                            <h3>Quizzes</h3>
+                            <h1>18</h1>
+                            </a>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="visits">
+                    <a href="games.html">
+                    <div class="status">
+                        <div class="info">
+                            
+                            <h3>Quizzes</h3>
+                            <h1>18</h1>
+                            
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-48%</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="searches">
+                    <a href="games.html">
+                    <div class="status">
+                        <div class="info">
+                            <a  href="games.html">
+                            <h3>Searches</h3>
+                            <h1>14</h1>
+                            </a>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21%</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Analyses -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>Friends</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <a href="chat.html">
+                        <img src="images/profile-2.jpg">
+                        <h2>Jack</h2>
+                        <p>54 Min Ago</p>
+                    </a>
+                    </div>
+                    <div class="user">
+                        <a href="chat.html">
+                        <img src="images/profile-3.jpg">
+                        <h2>Amir</h2>
+                        <p>3 Hours Ago</p>
+                    </a>
+                    </div>
+                    <div class="user">
+                        <a href="chat.html">
+                        <img src="images/profile-4.jpg">
+                        <h2>Ember</h2>
+                        <p>6 Hours Ago</p>
+                    </a>
+                    </div>
+                    <div class="user">
+                        <img src="images/plus.png">
+                        <h2>More</h2>
+                        <p>New User</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!--new section begins-->
+            
+            <h1>News</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="news-img">
+                        <img src="https://www.africanlawbusiness.com/uploads/pages/images/cdrcarousel_south-africa-passes-climate-change-act_0_RWERjf4bA4QQ4Ia3g0mkiL0kLuNlX8hFz7DHyPnQ.webp" alt="">
+                    </div>
+                    <div class="news-text">
+                        <p><a href="https://centralnews.co.za/health-department-commemorates-world-environmental-health-day-2024-highlighting-climate-action-and-disaster-resilience/">Eco Eid: Niger activists promote tree planting to check deforestation</a></p>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="news-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWViJpHgSN9KtCuud3WYinSxbcWfchexY6uQ&s" alt="">
+                    </div>
+                    <div class="news-text">
+                        <p><a>Eco Eid: Niger activists promote tree planting to check deforestation</a></p>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="news-img">
+                        <img src="https://static.euronews.com/articles/stories/08/50/80/08/260x146_cmsv2_a6412132-fe75-57bc-9a82-74bfa0596da6-8508008.jpg" alt="">
+                    </div>
+                    <div class="news-text">
+                        <p><a>Eco Eid: Niger activists promote tree planting to check deforestation</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analyses -->
+            <!--end of news section-->
+
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile"><a href="profile.html"></a>
+                    
+                    <div class="info">
+                        <p><a href="profile.html">Hey, Reza</a></p>
+                        <small class="text-muted"><a href="profile.html">Admin</a></small>
+                    </div>
+                    
+                    <a href="profile.html">
+                    <div  class="profile-photo">
+                        <img src="images/profile-1.jpg">
+                    </div>
+                </a>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Add Reminder</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="landing scripts/orders.js"></script>
+    <script src="landing scripts/index1.js"></script>
+</body>
+
+</html>
